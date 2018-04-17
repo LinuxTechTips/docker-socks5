@@ -1,9 +1,15 @@
+# How to build
+
+```
+docker build -t socks5 .
+```
+
 # How to run with auth
 
 
 Better to run on non-standard port:
 ```
-docker run -d --name socks --restart=always -p 11080:1080 -e "USER=myuser" -e "PASSWORD=mypassword"
+docker run -d --name socks --restart=always -p 11080:1080 -e "USER=myuser" -e "PASSWORD=mypassword" socks5
 ```
 
 
