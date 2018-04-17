@@ -37,5 +37,5 @@ COPY sockd.conf /etc/
 
 EXPOSE 1080
 
-ENTRYPOINT ["dumb-init"]
-CMD ["sockd"]
+COPY entrypoint.sh /
+CMD ["/entrypoint.sh"]
