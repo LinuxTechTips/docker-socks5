@@ -1,5 +1,5 @@
 #!/bin/sh
 
-printf "$PASSWORD\n$PASSWORD\n'" | adduser $USER
+printf "$PASSWORD\n$PASSWORD\n" | adduser $USER
 
 sockd
