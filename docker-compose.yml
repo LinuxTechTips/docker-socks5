@@ -4,11 +4,10 @@ services:
     # image: socks5
     build:
       context: .
-      container_name: socks
-      restart: always
-      ports:
-        - '11080:1080'
-      # environment:
-      #   - USER=user
-      #   - PASSWORD=mypassword
-      env_file: .env
+    restart: always
+    ports:
+      - '11080:1080'
+    # environment:
+    #   - USER=user
+    #   - PASSWORD=mypassword
+    env_file: .env
