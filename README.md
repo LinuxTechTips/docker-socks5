@@ -1,3 +1,5 @@
+# DEPRICATED: no longer in use
+
 This is a socks proxy which we use with the instagrapi app v2 so that all requests have the same origin IP, this makes instagram [trust](https://github.com/adw0rd/instagrapi/discussions/220) us more.
 
 # How to build
